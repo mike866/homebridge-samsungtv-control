@@ -26,7 +26,7 @@ module.exports = function(homebridge) {
 	makeChannelCharacteristic();
 	makeKeyCharacteristic();
 
-	homebridge.registerAccessory("homebridge-samsungtv", "SamsungTV", SamsungTvAccessory);
+	homebridge.registerAccessory("homebridge-old-samsungtv", "OldSamsungTV", SamsungTvAccessory);
 };
 
 //
